@@ -1,4 +1,5 @@
 addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.14.0")
-addSbtPlugin("org.scala-native" % "sbt-scala-native" % "0.4.16")
+addSbtPlugin("org.scala-native" % "sbt-scala-native" % "0.5.0-SNAPSHOT")
 addSbtPlugin("pl.project13.scala" % "sbt-jmh" % "0.4.6")
 addSbtPlugin("org.typelevel" % "sbt-typelevel" % "0.6.2")
+resolvers ++= Resolver.sonatypeOssRepos("snapshots")

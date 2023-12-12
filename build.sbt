@@ -68,6 +68,7 @@ ThisBuild / tlMimaPreviousVersions ++= Set(
   "1.15.4"
 )
 ThisBuild / tlVersionIntroduced := Map("3" -> "1.15.3")
+ThisBuild / resolvers ++= Resolver.sonatypeOssRepos("snapshots")
 
 lazy val root = tlCrossRootProject.aggregate(core, bench)
   .settings(
