@@ -3,7 +3,7 @@ val Scala213 = "2.13.11"
 val Scala3 = "3.3.1"
 
 name := "scalacheck"
-ThisBuild / organization := "org.scalacheck"
+ThisBuild / organization := "dev.tauri"
 ThisBuild / organizationName := "Typelevel"
 ThisBuild / homepage := Some(url("http://www.scalacheck.org"))
 ThisBuild / licenses := Seq("BSD-3-Clause" -> url("https://opensource.org/licenses/BSD-3-Clause"))
