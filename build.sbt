@@ -55,18 +55,7 @@ ThisBuild / githubWorkflowAddedJobs ++= Seq(
 )
 
 ThisBuild / tlBaseVersion := "1.17"
-ThisBuild / tlMimaPreviousVersions ++= Set(
-  // manually added because tags are not v-prefixed
-  "1.14.0",
-  "1.14.1",
-  "1.14.2",
-  "1.14.3",
-  "1.15.0",
-  "1.15.1",
-  "1.15.2",
-  "1.15.3",
-  "1.15.4"
-)
+ThisBuild / tlMimaPreviousVersions := Set()
 ThisBuild / tlVersionIntroduced := Map("3" -> "1.15.3")
 ThisBuild / resolvers ++= Resolver.sonatypeOssRepos("snapshots")
 
